@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8F431EC-2C54-4198-BC4E-CF3D76F96341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Core", "src\ApInsta.Core\ApInsta.Core.csproj", "{36CC9981-EC11-4BA2-903C-F8DEA7CA499F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Application", "src\ApInsta.Application\ApInsta.Application.csproj", "{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Infrastructure", "src\ApInsta.Infrastructure\ApInsta.Infrastructure.csproj", "{C2EFFE99-F245-4512-9D18-D0481BAEC1F3}"
@@ -27,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36CC9981-EC11-4BA2-903C-F8DEA7CA499F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36CC9981-EC11-4BA2-903C-F8DEA7CA499F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36CC9981-EC11-4BA2-903C-F8DEA7CA499F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36CC9981-EC11-4BA2-903C-F8DEA7CA499F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,7 +54,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{36CC9981-EC11-4BA2-903C-F8DEA7CA499F} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
 		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
 		{C2EFFE99-F245-4512-9D18-D0481BAEC1F3} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
 		{2ACEBD2E-76C3-4D3C-9706-D7D86857330F} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}

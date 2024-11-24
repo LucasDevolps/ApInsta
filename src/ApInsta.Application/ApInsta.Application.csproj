@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ApInsta.Core\ApInsta.Core.csproj" />
     <ProjectReference Include="..\ApInsta.Domain\ApInsta.Domain.csproj" />
   </ItemGroup>
 
