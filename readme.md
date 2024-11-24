@@ -43,8 +43,8 @@ Antes de começar, você precisará ter instalado:
 1. Clone o repositório:
 
    ```bash
-	   git clone https://github.com/LucasDevolps/ApInsta
-	   cd ApInsta
+git clone https://github.com/LucasDevolps/ApInsta
+cd ApInsta
    ```
 
 2. Configure a string de conexão no arquivo appsettings.json:
@@ -63,14 +63,16 @@ Antes de começar, você precisará ter instalado:
 4. Crie o banco de dados e aplique as migrações:
 
 	```bash
-		cd src/ApInsta.Infrastructure/
-    dotnet ef migrations add InitialCreate 
-		dotnet ef database update 
+cd src/ApInsta.Infrastructure/
+dotnet ef migrations add InitialCreate 
+dotnet ef database update 
 	```
 	
 5. Execute a aplicação:
     ```bash
-		dotnet run --project src/ApInsta.API
+cd ..
+cd ApInsta.API/
+dotnet run 
 	```
 6. Acesse o Swagger para testar os endpoints:
 
@@ -93,21 +95,22 @@ Antes de começar, você precisará ter instalado:
     Registro de um novo usuário.
 
     Body (JSON):
-
+	
+	```json
     {
         "name": "fulano",
         "email": "fulano@ciclano.com",
         "password": "password123"
     }
-
+	```
     POST /auth/login
     Autenticação de usuário.
     Body (JSON):
-
+	```json
     {
         "login": "johndoe@example.com",
         "password": "password123"
     }
-
+	```
 
 
