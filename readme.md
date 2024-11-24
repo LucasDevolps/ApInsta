@@ -90,6 +90,7 @@ Antes de começar, você precisará ter instalado:
 ## Endpoints Principais
 
 ### Autenticação
+
     POST /auth/register
 
     Registro de um novo usuário.
@@ -103,9 +104,11 @@ Antes de começar, você precisará ter instalado:
         "password": "password123"
     }
 	```
+	
     POST /auth/login
     Autenticação de usuário.
     Body (JSON):
+	
 	```json
     {
         "login": "johndoe@example.com",
