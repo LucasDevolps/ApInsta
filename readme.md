@@ -106,11 +106,11 @@ Antes de começar, você precisará ter instalado:
     Autenticação de usuário.
     Body (JSON):
 	
-	```json
-    {
-        "login": "johndoe@example.com",
-        "password": "password123"
-    }
-	```
+```json
+{
+	"login": "johndoe@example.com",
+	"password": "password123"
+}
+```
 
 
