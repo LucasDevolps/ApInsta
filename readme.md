@@ -41,6 +41,7 @@ Antes de começar, você precisará ter instalado:
 ## Configuração do Projeto
 
 1. Clone o repositório:
+
    ```bash
 	   git clone https://github.com/LucasDevolps/ApInsta
 	   cd ApInsta
@@ -53,18 +54,23 @@ Antes de começar, você precisará ter instalado:
 	"DefaultConnection": "Server=localhost;Database=BASE;User Id=sa;Password=Bkur6etc@10;TrustServerCertificate=True;"
   }
 ```
+
 3. Restaure as dependências:
-```bash
-    dotnet restore
-```
+
+	```bash
+		dotnet restore
+	```
 4. Crie o banco de dados e aplique as migrações:
 
-    dotnet ef database update --startup-project src/ApInsta.API --project src/ApInsta.Infrastructure
-
+	```bash
+		cd src/ApInsta.Infrastructure/
+		dotnet ef database update 
+	```
+	
 5. Execute a aplicação:
-    
-    dotnet run --project src/ApInsta.API
-
+    ```bash
+		dotnet run --project src/ApInsta.API
+	```
 6. Acesse o Swagger para testar os endpoints:
 
 
