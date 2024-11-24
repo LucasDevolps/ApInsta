@@ -41,8 +41,10 @@ Antes de começar, você precisará ter instalado:
 ## Configuração do Projeto
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/ApInsta.git
-   cd ApInsta
+   ```bash
+	   git clone https://github.com/LucasDevolps/ApInsta
+	   cd ApInsta
+   ```
 
 2. Configure a string de conexão no arquivo appsettings.json:
 
