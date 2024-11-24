@@ -54,9 +54,9 @@ Antes de começar, você precisará ter instalado:
   }
 ```
 3. Restaure as dependências:
-
+```bash
     dotnet restore
-
+```
 4. Crie o banco de dados e aplique as migrações:
 
     dotnet ef database update --startup-project src/ApInsta.API --project src/ApInsta.Infrastructure
