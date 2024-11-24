@@ -90,20 +90,17 @@ Antes de começar, você precisará ter instalado:
 ## Endpoints Principais
 
 ### Autenticação
-
     POST /auth/register
-
     Registro de um novo usuário.
-
     Body (JSON):
 	
-	```json
-    {
-        "name": "fulano",
-        "email": "fulano@ciclano.com",
-        "password": "password123"
-    }
-	```
+```json
+{
+	"name": "fulano",
+	"email": "fulano@ciclano.com",
+	"password": "password123"
+}
+```
 	
     POST /auth/login
     Autenticação de usuário.
