@@ -48,13 +48,13 @@ Antes de começar, você precisará ter instalado:
 
 2. Configure a string de conexão no arquivo appsettings.json:
 
-    ```json
-		{
-		  "ConnectionStrings": {
-			"DefaultConnection": "Server=localhost;Database=BASE;User Id=sa;Password=Bkur6etc@10;TrustServerCertificate=True;"
-		  }
-		}
-	```
+```json
+{
+  "ConnectionStrings": {
+	"DefaultConnection": "Server=localhost;Database=BASE;User Id=sa;Password=Bkur6etc@10;TrustServerCertificate=True;"
+  }
+}
+```
 3. Restaure as dependências:
 
     dotnet restore
