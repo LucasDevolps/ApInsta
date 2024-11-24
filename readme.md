@@ -64,6 +64,7 @@ Antes de começar, você precisará ter instalado:
 
 	```bash
 		cd src/ApInsta.Infrastructure/
+    dotnet ef migrations add InitialCreate 
 		dotnet ef database update 
 	```
 	
